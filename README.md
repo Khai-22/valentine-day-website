@@ -1,0 +1,38 @@
+# valentine-day-website<!DOCTYPE html>
+<html>
+<head>
+  <title>Valentine Website</title>
+  <style>
+    body {
+      background-color: pink;
+      text-align: center;
+      font-family: Arial;
+      margin-top: 100px;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 20px;
+      border: none;
+      background-color: red;
+      color: white;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Happy Valentine’s Day ❤️</h1>
+  <p>You are very special to me.</p>
+
+  <button onclick="showLove()">Click me</button>
+
+  <script>
+    function showLove() {
+      alert("I love you 💕");
+    }
+  </script>
+
+</body>
+</html>
